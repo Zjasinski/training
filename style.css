@@ -1,9 +1,40 @@
 body  {
-    background-image: url("https://i.pinimg.com/originals/6b/e1/84/6be1847b56e3832a614699142d1e09d8.jpg");
+    background-image: url("https://i.pinimg.com/originals/93/45/cf/9345cfb4889feae29a9373475ac18d08.jpg");
     background-color: #cccccc;
-    align-content: center;
     text-align: center;
+    align-content: center;
+    float: center;  
 }
-.ingredients {
+.ingredients li {
     font-size: 20px;
+    font-style:italic;
+    font-family:Georgia;
+    float: center;
+    font-weight: bolder;
+}
+h1 {
+    font-family:Georgia;
+    font-size:40px;
+    border-bottom: 5px solid rgba(19, 18, 18, 0.952);
+    border-width: (100px, 100px);
+    padding-bottom: 10px;
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 30px;
+}
+p {
+    font-size: 25px;
+    font-style:italic;
+    font-family: Georgia;
+    font-weight: bolder;
+    font-weight: bold;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
