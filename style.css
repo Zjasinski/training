@@ -1,9 +1,31 @@
 body  {
     background-image: url("https://i.pinimg.com/originals/93/45/cf/9345cfb4889feae29a9373475ac18d08.jpg");
     background-color: #cccccc;
+    }
+.navigation {
+    font-family: Georgia;
+    font-weight: bolder;
+    font-size: 50px;
     text-align: center;
-    align-content: center;
-    float: center;  
+    list-style: none;
+    width: 100%;
+    position: relative;
+    padding: 40px 0px;
+}
+.navigation a {
+    background: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: black;
+    display: inline-block;
+    padding: 14px;
+    text-decoration: none;
+    margin: 10px;
+}
+.navigation a:hover {
+    background: black;
+    border: 1px solid white;
+    color: white;
 }
 .ingredients li {
     font-size: 20px;
@@ -11,17 +33,20 @@ body  {
     font-family:Georgia;
     float: center;
     font-weight: bolder;
+    padding: 20px 5px 0px 5px;
 }
 h1 {
     font-family:Georgia;
     font-size:40px;
-    border-bottom: 5px solid rgba(19, 18, 18, 0.952);
-    border-width: (100px, 100px);
-    padding-bottom: 10px;
+    text-align: center;
+    padding: 15px;
 }
 h2 {
     font-family: Helvetica;
     font-size: 30px;
+    text-align: center;
+    border-bottom: solid black;
+    margin-top: 100px;
 }
 p {
     font-size: 25px;
@@ -29,6 +54,12 @@ p {
     font-family: Georgia;
     font-weight: bolder;
     font-weight: bold;
+    text-align: center;
+}
+.image {
+    float: left;
+    border: solid black;
+    border-radius: 30px;
 }
 .uppercase {
     text-transform: uppercase;
@@ -37,4 +68,5 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
